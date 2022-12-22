@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b6f7354-cf92-4840-b176-163d7dcab4b0" name="Changes" comment="TIXX-44757 Change variables">
+      <change beforePath="$PROJECT_DIR$/TestReport/APIExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestReport/APIExtentReport.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AYl1ylI1ScvOR1NtejAcURXukn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Peter/IdeaProjects/Archive/06072022/rest-assured-tests",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.catalog"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNG.xml">
+    <configuration name="Scenario: Verify comments placeholder title of the post 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/GetCommentsPlaceholder.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rest-assured-tests" />
+      <option name="NAME_FILTER" value="^Verify comments placeholder title of the post 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify comments placeholder title of the post 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify comments placeholder title of the post 1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify comments placeholder title of the post 2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/GetCommentsPlaceholder.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rest-assured-tests" />
+      <option name="NAME_FILTER" value="^Verify comments placeholder title of the post 2$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify comments placeholder title of the post 2$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify comments placeholder title of the post 2" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify post placeholder title of the post 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/GetPostsPlaceholder.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="rest-assured-tests" />
+      <option name="NAME_FILTER" value="^Verify post placeholder title of the post 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify post placeholder title of the post 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify post placeholder title of the post 1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-tests" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNgOneTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="rest-assured-tests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNgOneTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify comments placeholder title of the post 1" />
+      <item itemvalue="Cucumber Java.Scenario: Verify comments placeholder title of the post 2" />
+      <item itemvalue="Cucumber Java.Scenario: Verify post placeholder title of the post 1" />
+      <item itemvalue="TestNG.C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNgOneTest.xml" />
+      <item itemvalue="TestNG.C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNG.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNG.xml" />
+        <item itemvalue="TestNG.C:/Users/Peter/IdeaProjects/rest-assured-tests/src/test/TestNgOneTest.xml" />
+        <item itemvalue="Cucumber Java.Scenario: Verify comments placeholder title of the post 2" />
+        <item itemvalue="Cucumber Java.Scenario: Verify post placeholder title of the post 1" />
+        <item itemvalue="Cucumber Java.Scenario: Verify comments placeholder title of the post 1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b6f7354-cf92-4840-b176-163d7dcab4b0" name="Changes" comment="" />
+      <created>1655194191358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655194191358</updated>
+    </task>
+    <task id="LOCAL−00001" summary="Adding API testing framework rest-assured-tests">
+      <created>1656407438828</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1656407438828</updated>
+    </task>
+    <task id="LOCAL−00002" summary="TIXX-44757 Update Artifact ID">
+      <created>1656408462521</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1656408462521</updated>
+    </task>
+    <task id="LOCAL−00003" summary="TIXX-44757 Add Test NG Framework Runner">
+      <created>1656425095140</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1656425095140</updated>
+    </task>
+    <task id="LOCAL−00004" summary="TIXX-44757 Add Test NG Framework Runner">
+      <created>1656494908168</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1656494908169</updated>
+    </task>
+    <task id="LOCAL−00005" summary="TIXX-44757 Add Extent report">
+      <created>1656685499796</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1656685499796</updated>
+    </task>
+    <task id="LOCAL−00006" summary="TIXX-44757 Add Extent report">
+      <created>1656685686392</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1656685686392</updated>
+    </task>
+    <task id="LOCAL−00007" summary="TIXX-44757 Add Extent report">
+      <created>1656686495806</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1656686495806</updated>
+    </task>
+    <task id="LOCAL−00008" summary="TIXX-44757 Add RequestSpecification requestSpec = builder.build();">
+      <created>1657023860587</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1657023860587</updated>
+    </task>
+    <task id="LOCAL−00009" summary="TIXX-44757 Change variables">
+      <created>1657024064399</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1657024064399</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding API testing framework rest-assured-tests" />
+    <MESSAGE value="TIXX-44757 Update Artifact ID" />
+    <MESSAGE value="TIXX-44757 Add Test NG Framework Runner" />
+    <MESSAGE value="TIXX-44757 Add Extent report" />
+    <MESSAGE value="TIXX-44757 Add RequestSpecification requestSpec = builder.build();" />
+    <MESSAGE value="TIXX-44757 Change variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIXX-44757 Change variables" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/GetPostSteps.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" memberName="key" />
+        <PinnedItemInfo parentTag="java.lang.invoke.LambdaForm" memberName="result" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+        <PinnedItemInfo parentTag="java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry" memberName="value" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="coder" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/APITest1$Scenario__Verify_one_author_of_the_post.ic" NAME="Scenario: Verify one author of the post Coverage Results" MODIFIED="1655206891543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/APITest1$Scenario__Verify_one_author_of_the_post_3.ic" NAME="Scenario: Verify one author of the post 3 Coverage Results" MODIFIED="1655209631012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
