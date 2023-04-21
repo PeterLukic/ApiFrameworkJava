@@ -15,9 +15,9 @@ import static io.restassured.RestAssured.given;
 
 public class RestAssuredExtUtility {
 
-    private RequestSpecBuilder builder = new RequestSpecBuilder();
-    private String method;
-    private String url;
+    private final RequestSpecBuilder builder = new RequestSpecBuilder();
+    private final String method;
+    private final String url;
 
     public RestAssuredExtUtility(String url, String uri, String method, String token) throws Exception {
 
@@ -26,7 +26,7 @@ public class RestAssuredExtUtility {
 
         switch (token) {
             case "":
-                //RestAssured.useRelaxedHTTPSValidation();
+                RestAssured.useRelaxedHTTPSValidation();
                 break;
             case "Basic":
                 builder.log(LogDetail.ALL).addHeader("Authorization", "Basic " + "YXBpY2xpZW50QGktdGM6YXBpLjEyMzQ1Ng==");

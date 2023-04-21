@@ -24,7 +24,7 @@ public class Timestamp {
     @Given("I perform GET Convert Date String to Unix TimeStamp with value {string}")
     public void iPerformGETConvertUnixTimeStampToDateStringWithValue(String value) throws Exception {
         RestAssuredExtUtility restAssuredExtUtility = new RestAssuredExtUtility(
-                value, "", APIConstant.ApiMethods.GET, "");
+                value, "", "GET", "");
 
         responseOptions = restAssuredExtUtility.Execute();
 

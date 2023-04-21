@@ -22,6 +22,7 @@ Feature: Timestamp
     And I assert value from unix timeStamp
 
   # past time
+  #also testing with different format date value
   Scenario: Convert From Date String to Unix TimeStamp 1
     Given I perform GET Convert Date String to Unix TimeStamp with value "https://helloacm.com/api/unix-timestamp-converter/?cached&s=2019-01-01"
     And I assert value from date time

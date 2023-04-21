@@ -13,7 +13,7 @@ public class BDDStyleMethod {
     public static void SimpleGETPost(String postNumber){
         given().contentType(ContentType.JSON).
                 when().get(String.format("http://localhost:3000/posts/%s", postNumber)).
-                then().body("author", is("Karthik KK"));;
+                then().body("author", is("Karthik KK"));
     }
 
     public static void PerformContainsCollection(){
