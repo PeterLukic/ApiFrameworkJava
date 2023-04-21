@@ -3,6 +3,7 @@ package utilities;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.SSLConfig;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -27,9 +28,10 @@ public class RestAssuredExtUtility {
         switch (token) {
             case "":
                 RestAssured.useRelaxedHTTPSValidation();
+                RestAssured.config().sslConfig(SSLConfig.sslConfig().allowAllHostnames());
                 break;
             case "Basic":
-                builder.log(LogDetail.ALL).addHeader("Authorization", "Basic " + "YXBpY2xpZW50QGktdGM6YXBpLjEyMzQ1Ng==");
+                builder.log(LogDetail.ALL).addHeader("Authorization", "Basic " + "basic value");
                 break;
             case "Bearer":
                 builder.log(LogDetail.ALL).addHeader("Authorization", "Bearer " + "Token");
@@ -44,8 +46,7 @@ public class RestAssuredExtUtility {
     private ResponseOptions<Response> ExecuteAPI() {
         RequestSpecification requestSpecification = builder.build();
         RequestSpecification request = given();
-        request.contentType(ContentType.TEXT);
-        //request.contentType(ContentType.XML);
+        request.contentType(ContentType.JSON);
         request.spec(requestSpecification);
 
         if (this.method.equalsIgnoreCase(APIConstant.ApiMethods.POST))
