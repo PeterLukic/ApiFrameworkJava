@@ -5,8 +5,8 @@ import java.text.SimpleDateFormat;
 
 public class Helpers {
 
-    public static boolean isValidDate(String dateString) {
-        SimpleDateFormat df = new SimpleDateFormat("YYYY-MM-DD HH:MM:SS");
+    public static boolean isValidDate(String dateFormat, String dateString) {
+        SimpleDateFormat df = new SimpleDateFormat(dateFormat);
         try {
             df.parse(dateString);
             return true;

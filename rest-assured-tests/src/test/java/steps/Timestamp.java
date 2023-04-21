@@ -60,7 +60,7 @@ public class Timestamp {
         Settings.BodyValue = (Settings.BodyValue.substring(1,Settings.BodyValue.length()-1));
 
         Assert.assertNotNull(Settings.BodyValue);
-        Assert.assertTrue(Helpers.isValidDate(Settings.BodyValue));
+        Assert.assertTrue(Helpers.isValidDate("YYYY-MM-DD HH:MM:SS", Settings.BodyValue));
 
     }
 
