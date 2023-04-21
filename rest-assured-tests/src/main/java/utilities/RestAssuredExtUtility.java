@@ -26,7 +26,7 @@ public class RestAssuredExtUtility {
 
         switch (token) {
             case "":
-                RestAssured.useRelaxedHTTPSValidation();
+                //RestAssured.useRelaxedHTTPSValidation();
                 break;
             case "Basic":
                 builder.log(LogDetail.ALL).addHeader("Authorization", "Basic " + "YXBpY2xpZW50QGktdGM6YXBpLjEyMzQ1Ng==");
@@ -44,7 +44,7 @@ public class RestAssuredExtUtility {
     private ResponseOptions<Response> ExecuteAPI() {
         RequestSpecification requestSpecification = builder.build();
         RequestSpecification request = given();
-        request.contentType(ContentType.JSON);
+        request.contentType(ContentType.TEXT);
         //request.contentType(ContentType.XML);
         request.spec(requestSpecification);
 
@@ -81,6 +81,10 @@ public class RestAssuredExtUtility {
 
     public ResponseOptions<Response> ExecuteWithPathParams(Map<String, String> pathParams) {
         builder.addPathParams(pathParams);
+        return ExecuteAPI();
+    }
+
+    public ResponseOptions<Response> Execute() {
         return ExecuteAPI();
     }
 }

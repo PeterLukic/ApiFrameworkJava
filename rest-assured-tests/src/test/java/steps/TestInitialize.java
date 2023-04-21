@@ -13,7 +13,7 @@ public class TestInitialize {
     @Before
     public void TestSetup(Scenario scenario) throws IOException {
 
-        RestAssuredExtension restAssuredExtension = new RestAssuredExtension();
+        //RestAssuredExtension restAssuredExtension = new RestAssuredExtension();
         ConfigReader.PopulateSettings();
     }
 }

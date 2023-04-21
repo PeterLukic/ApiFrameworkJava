@@ -22,4 +22,5 @@ public class Settings {
     public static String ResponseXml;
 
     public static String DecodeXml;
+    public static String BodyValue;
 }

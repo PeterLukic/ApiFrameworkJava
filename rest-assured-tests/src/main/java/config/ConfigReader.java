@@ -34,5 +34,6 @@ public class ConfigReader {
         Settings.ExternalSpaceReference = p.getProperty("externalSpaceReference");
         Settings.ResponseXml = p.getProperty("responseXml");
         Settings.DecodeXml = p.getProperty("decodeXml");
+        Settings.BodyValue = p.getProperty("bodyValue");
     }
 }
