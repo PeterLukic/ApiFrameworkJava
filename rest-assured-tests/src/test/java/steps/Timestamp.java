@@ -15,7 +15,6 @@ import utilities.*;
 
 
 import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
 
 
 public class Timestamp {
